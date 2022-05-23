@@ -15,12 +15,12 @@
     firstDice.src=dices[randomDice1];
     secondDice.src=dices[randomDice2];
     if (randomDice1<randomDice2){
-        document.getElementsByTagName('h1')[0].innerHTML="Player 2 won!"
+        document.getElementsByTagName('h1')[0].innerHTML="🚩 Player 2 won!"
     }
     else if (randomDice1>randomDice2){
-        document.getElementsByTagName('h1')[0].innerHTML="Player 1 won!"
+        document.getElementsByTagName('h1')[0].innerHTML="🚩 Player 1 won!"
     }
     else {
-        document.getElementsByTagName('h1')[0].innerHTML="Draw!"
+        document.getElementsByTagName('h1')[0].innerHTML="🚩 Draw!"
     }
     
